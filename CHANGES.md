@@ -16,6 +16,8 @@
 
 - Format docstrings to have consistent quote placement (#2885)
 - Enforce empty lines before classes and functions with sticky leading comments (#3302)
+- Reformat empty and whitespace-only files as either an empty file (if no newline is
+  present) or as a single newline character (if a newline is present) (#3348)
 - Implicitly concatenated strings used as function args are now wrapped inside
   parentheses (#3307)
 - Correctly handle trailing commas that are inside a line's leading non-nested parens
